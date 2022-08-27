@@ -1,0 +1,9 @@
+{
+    "version": "0.2.0",
+    "tasks": [{
+        "label": "NestedShell",
+        "command": "dbus-run-session",
+        "args": ["--", "gnome-shell", "--nested"],
+        "type": "shell"
+    }]
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.bil4x4.audiodevicetoggle" path="/org/gnome/shell/extensions/bil4x4/audiodevicetoggle/">
+        <!-- See also: https://docs.gtk.org/glib/gvariant-format-strings.html -->
+        <key name="show-notifications" type="b">
+            <default>true</default>
+            <summary>Show notifications</summary>
+            <description>Enable or disable Notifications</description>
+        </key>
+        <key name="speaker-out" type="s">
+            <default>""</default>
+            <summary>Speaker device out</summary>
+            <description>The device for playing audio out of your speakers</description>
+        </key>
+        <key name="speaker-in" type="s">
+            <default>""</default>
+            <summary>Speaker device In</summary>
+            <description>The device for recording audio while using your speakers</description>
+        </key>
+        <key name="headphones-out" type="s">
+            <default>""</default>
+            <summary>Headphones device out</summary>
+            <description>The device for playing audio out of your headphones</description>
+        </key>
+        <key name="headphones-in" type="s">
+            <default>""</default>
+            <summary>Headphones device In</summary>
+            <description>The device for recording audio while using your headphones</description>
+        </key>
+    </schema>
+</schemalist>

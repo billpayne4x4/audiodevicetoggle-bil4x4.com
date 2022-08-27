@@ -1,0 +1,8 @@
+{
+  "name": "Audio Device Toggle",
+  "description": "Toogle between speakers and headset.",
+  "uuid": "audiodevicetoggle@bil4x4.com",
+  "shell-version": [
+    "42"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Nested Shell",
+            "preLaunchTask": "NestedShell",
+            "type": "pwa-chrome",
+            "request": "attach"
+        }
+    ],
+    "tasks": [{
+        "label": "NestedShell",
+        "command": "dbus-run-session",
+        "args": ["--gnome-shell", "--nested"],
+        "type": "shell"
+    }]
+}
